@@ -1,0 +1,18 @@
+# Java related
+target/**
+*.jar
+*.war
+*.ear
+*.class
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# External tool builders
+.externalToolBuilders/
+
+# Maven
+log/
+target/
