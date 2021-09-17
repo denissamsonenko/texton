@@ -1,5 +1,5 @@
 create table hibernate_sequence (next_val bigint) engine=InnoDB;
-insert into hibernate_sequence values ( 1 );
+insert into hibernate_sequence values ( 2 );
 
 create table message (
     id bigint not null AUTO_INCREMENT,
@@ -11,12 +11,12 @@ create table message (
     );
 
 create table user_role (
-    user_id bigint not null AUTO_INCREMENT,
+    user_id bigint not null,
     roles varchar(255)
 );
 
 create table usr (
-    id bigint not null AUTO_INCREMENT,
+    id bigint not null,
     activation_code varchar(255),
     active bit not null,
     email varchar(255),
