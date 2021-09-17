@@ -16,3 +16,4 @@ target/**
 # Maven
 log/
 target/
+/src/main/resources/application.properties
