@@ -5,11 +5,11 @@
                 <img src="/img/${message.filename}" class="card-img-top">
             </#if>
             <div class="m-2">
-                <span>${message.text}</span>
-                <i>${message.tag}</i>
+                <span>${message.text}</span><br/>
+                <i>#${message.tag}</i>
             </div>
             <div class="card-footer">
-                ${message.authorName}
+                <a href="/user-messages/${message.author.id}">${message.authorName}</a>
             </div>
         </div>
     <#else>
