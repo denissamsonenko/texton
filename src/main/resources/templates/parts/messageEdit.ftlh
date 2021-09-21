@@ -20,7 +20,7 @@
                 </div>
             </#if>
             <div class="custom-file">
-                <input type="file" name="file" class="custom-file-input" id="customFile">
+                <input type="file" name="file" class="custom-file-input" id="customFile" />
                 <label class="custom-file-label" for="customFile">Choose file</label>
             </div>
             <input type="hidden" name="_csrf" value="${_csrf.token}"/>
