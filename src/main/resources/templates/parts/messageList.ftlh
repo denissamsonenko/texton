@@ -1,7 +1,7 @@
 <#include "security.ftlh">
-<div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+<div class="row row-cols-1 row-cols-md-2 g-4 mt-3" id="message-list">
     <#list messages as message>
-        <div class="card my-3">
+        <div class="card my-3" data-id="${message.id}">
             <#if message.filename??>
                 <img src="/img/${message.filename}" class="card-img-top" />
             </#if>
