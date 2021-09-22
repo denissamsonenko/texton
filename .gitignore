@@ -17,3 +17,4 @@ target/**
 log/
 target/
 /src/main/resources/application.properties
+/src/test/resources/application-test.properties
